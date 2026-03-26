@@ -21,7 +21,7 @@ print(type(message))  -- 출력: string
 -- tonumber() 함수: 값을 숫자로 변환
 
 -- tonumber() 함수 사용 예
-local strVal = "42"
+local strVal = "42.5"
 local numVal = tonumber(strVal) 
 if numVal then
     print("변환된 숫자:", numVal + 8) -- 출력: 변환된 숫자: 50
@@ -31,7 +31,7 @@ end
 
 -- 진수 변환
 local hexStr = "FF"
-local decVal = tonumber(hexStr, 16) -- 16진수 문자열을 10진수 숫자로 변환
+local decVal = tonumber(hexStr, 16) -- 16진수  문자열을 10진수 숫자로 변환
 print(decVal) -- 출력: 255
 
 -- tostring() 함수 사용 예

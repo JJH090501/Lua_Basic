@@ -23,6 +23,7 @@ print(A<=B) -- 작거나 같다
 print(A>B) -- 크다
 print(A>=B) -- 크거나 같다
 
+
 ----------------
 
 -- 논리 연산자 and, or, not
@@ -42,3 +43,4 @@ local str = "Hello"
 print(#str) -- 문자열 길이
 local tbl = {1, 2, 3, 4, 5}
 print(#tbl) -- 테이블 길이 (배열 부분)
+

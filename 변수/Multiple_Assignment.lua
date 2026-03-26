@@ -27,4 +27,10 @@ print(tempA, tempB)  -- 출력: 2 1
 
 
 -- 공백을 기준으로 여러 값을 입력 받을 땐
-local test_input = io.read():match("(%d+)%s+(%d+)")
+local test_input = io.read():match("(%d+)%s+(%d+)") -- = .split() | match = map
+
+
+local A = io.read()
+A = tonumber(A)
+
+local B = io.read("*n", "*n")
